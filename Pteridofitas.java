@@ -9,16 +9,16 @@ public class Pteridofitas extends Plantae{
     
 	@Override
 	public void corpoPlantae(){
-		System.out.println("DefiniÁ„o:\nCorpo do(a) "+this.getNome() +
-		" possui: esporÛfito, raiz, caule, folhas,\ntrofofilos, esperofilas,"+
-        " trofoesporofilos, isosporadas e\nheterosporadas.\n" +
-        "=======================================================================");
+		System.out.println("Defini√ß√£o:\nCorpo do(a) "+this.getNome() +
+		" possui: espor√≥fito, raiz, caule, folhas,\ntrofofilos, esperofilas,"+
+        	" trofoesporofilos, isosporadas e\nheterosporadas.\n" +
+        	"=======================================================================");
 	}
 	
 	@Override
 	public String toString() {
 		return "======================================================================="+
-		"\n"+this.getNome() +" È da divis„o das Pteridofitas!\n" +
+		"\n"+this.getNome() +" √© da divis√£o das Pteridofitas!\n" +
 		"\nPlantinha Info\n" + "Nome: " + this.getNome() + "\nTamanho: " + this.getTamanho() + "cm" +
 		"\nClasse: " + this.getClasse() + "\nEspecie: " + this.getEspecie() + "\n"+
 		"=======================================================================";
